@@ -1,20 +1,20 @@
 {
-  "name": "io.dragee.rules.relation.DrageeOne",
+  "name": "io.fixentropy.rules.relation.DrageeOne",
   "profile": "testing/test_object",
   "depends_on": {
-    "io.dragee.rules.relation.DrageeTwo": [
+    "io.fixentropy.rules.relation.DrageeTwo": [
       "field",
       "constructor",
       "method_param"
     ],
-    "io.dragee.rules.relation.DrageeThree": [
+    "io.fixentropy.rules.relation.DrageeThree": [
       "constructor",
       "method_param"
     ],
-    "io.dragee.rules.relation.DrageeFour": [
+    "io.fixentropy.rules.relation.DrageeFour": [
       "method_return"
     ],
-    "io.dragee.rules.relation.DrageeFive": [
+    "io.fixentropy.rules.relation.DrageeFive": [
       "field",
       "method_return"
     ]
