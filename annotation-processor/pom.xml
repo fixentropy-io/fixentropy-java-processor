@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.dragee</groupId>
-        <artifactId>dragee-parent</artifactId>
+        <groupId>io.fixentropy</groupId>
+        <artifactId>fixentropy-parent</artifactId>
         <version>latest</version>
     </parent>
 
@@ -20,7 +20,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.dragee</groupId>
+            <groupId>io.fixentropy</groupId>
             <artifactId>core-annotations</artifactId>
             <version>${project.parent.version}</version>
         </dependency>

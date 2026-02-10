@@ -5,39 +5,39 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.dragee</groupId>
-        <artifactId>dragee-parent</artifactId>
+        <groupId>io.fixentropy</groupId>
+        <artifactId>fixentropy-parent</artifactId>
         <version>latest</version>
     </parent>
 
     <artifactId>ddd-annotations</artifactId>
     <packaging>jar</packaging>
     <name>ddd-annotations</name>
-    <description>dragee parent</description>
-    <url>https://dragee.io</url>
+    <description>fixentropy ddd annotations</description>
+    <url>https://fixentropy.io</url>
     <developers>
       <developer>
         <name>Edouard Cattez</name>
         <email>ecattez@hoppr.tech</email>
-        <organization>Dragée</organization>
-        <organizationUrl>https://dragee.io</organizationUrl>
+        <organization>Fixentropy</organization>
+        <organizationUrl>https://fixentropy.io</organizationUrl>
       </developer>
     </developers>
     <scm>
-      <connection>scm:git:git://github.com/dragee-io/dragee-java-processor.git</connection>
-      <developerConnection>scm:git:ssh://github.com:dragee-io/dragee-java-processor.git</developerConnection>
-      <url>https://github.com/dragee-io/dragee-java-processor/tree/main</url>
+      <connection>scm:git:git://github.com/fixentropy-io/fixentropy-java-processor.git</connection>
+      <developerConnection>scm:git:ssh://github.com:fixentropy-io/fixentropy-java-processor.git</developerConnection>
+      <url>https://github.com/fixentropy-io/fixentropy-java-processor/tree/main</url>
     </scm>
 
     <dependencies>
         <dependency>
-            <groupId>io.dragee</groupId>
+            <groupId>io.fixentropy</groupId>
             <artifactId>core-annotations</artifactId>
             <version>${project.parent.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>io.dragee</groupId>
+            <groupId>io.fixentropy</groupId>
             <artifactId>annotation-processor</artifactId>
             <version>${project.parent.version}</version>
             <scope>test</scope>

@@ -2,25 +2,25 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.dragee</groupId>
-    <artifactId>dragee-parent</artifactId>
+    <groupId>io.fixentropy</groupId>
+    <artifactId>fixentropy-parent</artifactId>
     <version>latest</version>
     <packaging>pom</packaging>
-    <name>Dragee Java Processor</name>
-    <description>dragee parent</description>
-    <url>https://dragee.io</url>
+    <name>Fixentropy Java Processor</name>
+    <description>fixentropy parent</description>
+    <url>https://fixentropy.io</url>
     <developers>
       <developer>
         <name>Edouard Cattez</name>
         <email>ecattez@hoppr.tech</email>
-        <organization>Dragée</organization>
-        <organizationUrl>https://dragee.io</organizationUrl>
+        <organization>Fixentropy</organization>
+        <organizationUrl>https://fixentropy.io</organizationUrl>
       </developer>
     </developers>
     <scm>
-      <connection>scm:git:git://github.com/dragee-io/dragee-java-processor.git</connection>
-      <developerConnection>scm:git:ssh://github.com:dragee-io/dragee-java-processor.git</developerConnection>
-      <url>https://github.com/dragee-io/dragee-java-processor/tree/main</url>
+      <connection>scm:git:git://github.com/fixentropy-io/fixentropy-java-processor.git</connection>
+      <developerConnection>scm:git:ssh://github.com:fixentropy-io/fixentropy-java-processor.git</developerConnection>
+      <url>https://github.com/fixentropy-io/fixentropy-java-processor/tree/main</url>
     </scm>
     <licenses>
         <license>
