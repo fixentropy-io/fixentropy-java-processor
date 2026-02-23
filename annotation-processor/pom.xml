@@ -9,6 +9,7 @@
         <artifactId>fixentropy-parent</artifactId>
         <version>latest</version>
     </parent>
+    <name>Fixentropy Java Processor Annotation processor</name>
 
     <artifactId>annotation-processor</artifactId>
     <packaging>jar</packaging>
