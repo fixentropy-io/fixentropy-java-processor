@@ -1,5 +1,6 @@
 package io.fixentropy.processor;
 
+import io.fixentropy.annotation.Inheritable;
 import io.fixentropy.util.SimpleName;
 
 import javax.lang.model.element.Element;
@@ -28,5 +29,9 @@ public class DrageeType {
 
     public static DrageeType from(TypeElement element) {
         return new DrageeType(element);
+    }
+
+    public boolean isInheritable() {
+        return this.element.getAnnotation(Inheritable.class) != null;
     }
 }
