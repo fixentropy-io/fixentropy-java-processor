@@ -74,3 +74,15 @@ All the annotations relative to DDD tactical patterns.
     <scope>provided</scope>
 </dependency>
 ```
+
+## hexagonal-annotations
+
+If you want to use the Hexagonal Architecture annotations, you must add the following dependency:
+
+```xml
+<dependency>
+    <groupId>io.dragee</groupId>
+    <artifactId>hexagonal-annotations</artifactId>
+    <scope>provided</scope>
+</dependency>
+```
