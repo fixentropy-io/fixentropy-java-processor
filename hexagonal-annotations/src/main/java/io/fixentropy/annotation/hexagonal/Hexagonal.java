@@ -1,10 +1,10 @@
-package io.dragee.annotation.hexagonal;
+package io.fixentropy.annotation.hexagonal;
 
-import io.dragee.annotation.Dragee;
+import io.fixentropy.annotation.Fixentropy;
 
 import java.lang.annotation.*;
 
-@Dragee.Namespace
+@Fixentropy.Namespace
 @Inherited
 @Documented
 @Target(ElementType.ANNOTATION_TYPE)

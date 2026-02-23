@@ -1,7 +1,7 @@
-package io.dragee.annotation.hexagonal;
+package io.fixentropy.annotation.hexagonal;
 
-import io.dragee.testing.Approval;
-import io.dragee.testing.Compiler;
+import io.fixentropy.testing.Approval;
+import io.fixentropy.testing.Compiler;
 import net.javacrumbs.jsonunit.core.Option;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -13,8 +13,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class HexagonalAnnotationsTest {
 
-    private static final Path SOURCE_FOLDER = Path.of("io", "dragee", "annotation", "hexagonal", "sample");
-    private static final Path OUTPUT_FOLDER = Path.of("io", "dragee", "annotation", "hexagonal", "sample");
+    private static final Path SOURCE_FOLDER = Path.of("io", "fixentropy", "annotation", "hexagonal", "sample");
+    private static final Path OUTPUT_FOLDER = Path.of("io", "fixentropy", "annotation", "hexagonal", "sample");
 
     private static Compiler.Result executeProcessor() {
         Compiler compiler = Compiler.compileTestClasses(
