@@ -1,16 +1,17 @@
-# Dragee-java-processor
+# Fixentropy-java-processor
 
 ## Installation
 
 Dependencies are provided through the use of a bom dependency.
 
 ```xml
+
 <dependencyManagement>
     <dependencies>
         <dependency>
-            <groupId>io.dragee</groupId>
-            <artifactId>dragee-bom</artifactId>
-            <version>${dragee.version}</version>
+            <groupId>io.fixentropyio.fixentropy</groupId>
+            <artifactId>fixentropy-bom</artifactId>
+            <version>${fixentropy.version}</version>
             <scope>import</scope>
             <type>pom</type>
         </dependency>
@@ -20,44 +21,46 @@ Dependencies are provided through the use of a bom dependency.
 
 ## annotation-processor
 
-This dependency is mandatory in order to process objects that are assignable to dragee.
+This dependency is mandatory in order to process objects that are assignable to fixentropy.
 
 ```xml
+
 <dependencies>
     <dependency>
-        <groupId>io.dragee</groupId>
+        <groupId>io.fixentropyio.fixentropy</groupId>
         <artifactId>annotation-processor</artifactId>
         <scope>provided</scope>
     </dependency>
 </dependencies>
 
 <build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>${maven.compiler.version}</version>
-            <configuration>
-                <annotationProcessorPaths>
-                    <path>
-                        <groupId>io.dragee</groupId>
-                        <artifactId>annotation-processor</artifactId>
-                        <version>${dragee.version}</version>
-                    </path>
-                </annotationProcessorPaths>
-            </configuration>
-        </plugin>
-    </plugins>
+<plugins>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${maven.compiler.version}</version>
+        <configuration>
+            <annotationProcessorPaths>
+                <path>
+                    <groupId>io.fixentropyio.fixentropy</groupId>
+                    <artifactId>annotation-processor</artifactId>
+                    <version>${fixentropy.version}</version>
+                </path>
+            </annotationProcessorPaths>
+        </configuration>
+    </plugin>
+</plugins>
 </build>
 ```
 
 ## core-annotations
 
-Core annotations of Dragee format. It is **already provided** by the annotation-processor.
+Core annotations of Fixentropy format. It is **already provided** by the annotation-processor.
 
 ```xml
+
 <dependency>
-    <groupId>io.dragee</groupId>
+    <groupId>io.fixentropyio.fixentropy</groupId>
     <artifactId>core-annotations</artifactId>
     <scope>provided</scope>
 </dependency>
@@ -68,8 +71,9 @@ Core annotations of Dragee format. It is **already provided** by the annotation-
 All the annotations relative to DDD tactical patterns.
 
 ```xml
+
 <dependency>
-    <groupId>io.dragee</groupId>
+    <groupId>io.fixentropyio.fixentropy</groupId>
     <artifactId>ddd-annotations</artifactId>
     <scope>provided</scope>
 </dependency>

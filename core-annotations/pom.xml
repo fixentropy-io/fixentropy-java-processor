@@ -5,28 +5,28 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.dragee</groupId>
-        <artifactId>dragee-parent</artifactId>
+        <groupId>io.fixentropy</groupId>
+        <artifactId>fixentropy-parent</artifactId>
         <version>latest</version>
     </parent>
 
     <artifactId>core-annotations</artifactId>
     <packaging>jar</packaging>
     <name>core-annotations</name>
-    <description>dragee core annotations</description>
-    <url>https://dragee.io</url>
+    <description>fixentropy core annotations</description>
+    <url>https://fixentropy.io</url>
     <developers>
       <developer>
         <name>Edouard Cattez</name>
         <email>ecattez@hoppr.tech</email>
-        <organization>Dragée</organization>
-        <organizationUrl>https://dragee.io</organizationUrl>
+        <organization>Fixentropy</organization>
+        <organizationUrl>https://fixentropy.io</organizationUrl>
       </developer>
     </developers>
     <scm>
-      <connection>scm:git:git://github.com/dragee-io/dragee-java-processor.git</connection>
-      <developerConnection>scm:git:ssh://github.com:dragee-io/dragee-java-processor.git</developerConnection>
-      <url>https://github.com/dragee-io/dragee-java-processor/tree/main</url>
+      <connection>scm:git:git://github.com/fixentropy-io/fixentropy-java-processor.git</connection>
+      <developerConnection>scm:git:ssh://github.com:fixentropy-io/fixentropy-java-processor.git</developerConnection>
+      <url>https://github.com/fixentropy-io/fixentropy-java-processor/tree/main</url>
     </scm>
 
 </project>
