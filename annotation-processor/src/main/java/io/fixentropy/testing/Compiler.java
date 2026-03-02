@@ -78,7 +78,8 @@ public class Compiler {
 
         private boolean success;
 
-        private Result() {}
+        private Result() {
+        }
 
         public boolean success() {
             return success;
@@ -91,6 +92,11 @@ public class Compiler {
             } catch (IOException e) {
                 throw new RuntimeException(String.format("Failed to read dragee file '%s'", relativePath), e);
             }
+        }
+
+        public boolean hasDrageeFile(Path relativePath) {
+            Path drageePath = DRAGEE_FOLDER.resolve(relativePath);
+            return Files.exists(drageePath);
         }
 
         private Result execute() {

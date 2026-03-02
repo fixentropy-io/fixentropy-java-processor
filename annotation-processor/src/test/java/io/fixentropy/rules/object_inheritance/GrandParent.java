@@ -1,7 +1,7 @@
 package io.fixentropy.rules.object_inheritance;
 
-import io.fixentropy.testing.TypeOne;
+import io.fixentropy.testing.InheritableType;
 
-@TypeOne
+@InheritableType
 public interface GrandParent {
 }
